@@ -1,7 +1,7 @@
+tensorflow-cpu
 Flask
-keras==2.2.1
 pickle5
 pandas
 numpy
 opencv-python
-tensorflow
+sklearn
