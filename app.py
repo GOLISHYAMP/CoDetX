@@ -2,7 +2,7 @@ from flask import Flask, render_template
 from flask import request
 import os
 import pickle
-from keras.models import load_model
+import keras
 import cv2
 import numpy as np
 
@@ -15,7 +15,7 @@ MODEL_PATH = os.path.join(BASE_PATH, 'static/MODELS/')
 # ------- Loading model----------
 xray_model_path = os.path.join(MODEL_PATH, 'xray.model')
 symptom_model_path = os.path.join(MODEL_PATH, 'model.save')
-xray_model = load_model(xray_model_path)
+xray_model = keras.models.load_model(xray_model_path)
 symptom_model = pickle.load(open(symptom_model_path, 'rb'))
 
 
