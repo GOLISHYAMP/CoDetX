@@ -1,6 +1,5 @@
 Flask
 keras
-tensorflow
 pickle5
 pandas
 numpy
