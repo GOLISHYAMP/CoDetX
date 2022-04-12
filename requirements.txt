@@ -4,3 +4,4 @@ pickle5
 pandas
 numpy
 opencv-python
+tensorflow
