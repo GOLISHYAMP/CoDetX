@@ -1,3 +1,6 @@
 •	Built an image classification system using CNN to detect COVID-19 and pneumonia from chest X-rays with 95% accuracy.
 •	Managed data collection, augmentation, training, and validation to enhance model performance.
 •	Deployed the solution via Flask, providing real-time predictions through a user-friendly interface.
+
+Check the CNN working in this website
+https://poloclub.github.io/cnn-explainer/#article-convolution
